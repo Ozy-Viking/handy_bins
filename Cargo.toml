@@ -1,0 +1,15 @@
+[package]
+name = "handy_bins"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = {version = "4.5.16", features = ["derive"]}
+
+[[bin]]
+name = "min"
+test = true
+
+[[bin]]
+name = "max"
+test = true
